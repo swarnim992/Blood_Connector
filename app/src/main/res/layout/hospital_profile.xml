@@ -1,0 +1,209 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:isScrollContainer="true">
+
+        <TableRow
+            android:layout_width="396dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="224dp"
+                android:layout_marginTop="10dp"
+                android:layout_span="3"
+                android:src="@drawable/hospital1" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="396dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Hospital Name :"
+                android:textColor="@color/lofincolor"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/hnam"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:editable="false" />
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:textColor="@color/lofincolor"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Contact No. :" />
+
+            <EditText
+                android:id="@+id/hcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layout_column="2" />
+
+        </TableRow>
+
+
+
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/lofincolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Address:"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/hadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layout_column="2" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_span="3"
+                >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="8">
+
+                    <TextView
+                        android:layout_width="79dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="City :"
+                        android:textColor="@color/lofincolor"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/hcit"
+                        android:layout_width="21dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_weight="3"
+                        android:editable="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:layout_weight="1"
+                        android:text="   Dist :"
+                        android:textStyle="bold"
+                        android:textColor="@color/lofincolor"/>
+
+                    <EditText
+                        android:id="@+id/hdis"
+                        android:layout_width="14dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="4"
+                        android:layout_weight="3"
+                        android:editable="false" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/lofincolor"
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Land Mark :" />
+
+            <EditText
+                android:id="@+id/hland"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:editable="false"/>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_height="35dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:layout_span="3"
+                android:text="Back"
+                android:background="#f63838"
+                android:textColor="@android:color/white"
+                android:gravity="center" />
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+</ScrollView>

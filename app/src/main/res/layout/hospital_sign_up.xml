@@ -1,0 +1,285 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingVertical="35dp"
+        android:isScrollContainer="true">
+
+        <TableRow
+            android:layout_width="396dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="368dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_span="3"
+                android:src="@drawable/hospital"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="396dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Hospital Name :"
+                android:textColor="@color/lofincolor"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/hosname"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="396dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Username :"
+                android:textColor="@color/lofincolor"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/hosuser"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/lofincolor"
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+
+                android:textSize="15dp"
+                android:text="Password :" />
+
+            <EditText
+                android:id="@+id/hospass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/lofincolor"
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Co-Password :" />
+
+            <EditText
+                android:id="@+id/conpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:textStyle="bold"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Hospital Email :"
+                android:textStyle="bold"
+                android:textColor="@color/lofincolor"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hosemai"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:textColor="@color/lofincolor"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Mobile No. :" />
+
+            <EditText
+                android:id="@+id/hosmobil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/lofincolor"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Address :" />
+
+            <EditText
+                android:id="@+id/hosadd"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_span="3"
+                >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="8">
+
+                    <TextView
+                        android:textSize="15dp"
+                        android:layout_width="79dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="City :"
+                        android:textColor="@color/lofincolor"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/hoscit"
+                        android:entries="@array/city"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_weight="3" />
+
+                    <TextView
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:layout_weight="1"
+                        android:text="   Dist :"
+                        android:textStyle="bold"
+                        android:textColor="@color/lofincolor"/>
+
+                    <EditText
+                        android:id="@+id/hosdis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="4"
+                        android:layout_weight="3" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/lofincolor"
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Land Mark :" />
+
+            <EditText
+                android:id="@+id/hosland"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <Button
+                android:id="@+id/hoabutton"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_span="3"
+                android:text="Sign Up"
+                android:background="#f63838"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="center" />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

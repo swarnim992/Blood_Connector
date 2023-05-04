@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".forget_pass_hos" />
+        <activity android:name=".hospital" />
+        <activity android:name=".dis_blood" />
+        <activity android:name=".user_profile" />
+        <activity android:name=".hospital_profile" />
+        <activity android:name=".profile_update" />
+        <activity android:name=".donate_blood" />
+        <activity android:name=".hospital_sign_up" />
+        <activity android:name=".search_blood" />
+        <activity android:name=".forgot_user" />
+        <activity android:name=".forget_pass" />
+        <activity android:name=".new_user" />
+        <activity android:name=".U_Login" />
+        <activity android:name=".home1" />
+        <activity android:name=".Hospital_login" />
+        <activity android:name=".option" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

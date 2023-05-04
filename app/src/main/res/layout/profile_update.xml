@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1"
+    tools:context=".profile_update">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="80dp"
+        android:isScrollContainer="true">
+
+        <TableRow
+            android:layout_width="396dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:layout_span="3"
+                android:src="@drawable/businessman"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_width="396dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="99dp"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:layout_column="1"
+                android:text="Welcome"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:layout_span="3"
+                android:textColor="@color/lofincolor"/>
+
+        </TableRow>
+
+        <TableRow
+            android:textStyle="bold"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Email :"
+                android:textStyle="bold"
+                android:textColor="@color/lofincolor"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/uemail"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:textColor="@color/lofincolor"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Mobile No. :"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/umobi"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/lofincolor"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Address :" />
+
+            <EditText
+                android:id="@+id/uadd"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_span="3"
+                >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="8">
+
+                    <TextView
+                        android:layout_width="47dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="City :"
+                        android:textColor="@color/lofincolor"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/ucity"
+                        android:entries="@array/city"
+                        android:layout_width="13dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_weight="3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:layout_weight="1"
+                        android:text="   Dist :"
+                        android:textStyle="bold"
+                        android:textColor="@color/lofincolor"/>
+
+                    <EditText
+                        android:id="@+id/udis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="4"
+                        android:layout_weight="3" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/lofincolor"
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Land Mark :" />
+
+            <EditText
+                android:id="@+id/uland"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp">
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Update"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="60dp"
+                    android:textColor="#ffffff"
+                    android:background="@color/lofincolor"
+                    android:textStyle="bold"
+                    android:layout_span="3" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+</ScrollView>

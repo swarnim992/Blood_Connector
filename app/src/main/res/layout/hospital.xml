@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dis_blood">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Near You"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/lofincolor"
+        android:width="200dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name  :"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/lofincolor"
+        android:width="135dp"/>
+
+
+    <TextView
+        android:id="@+id/hname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="170dp"
+        android:textSize="18sp"
+        android:width="300dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact No.       :"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:textSize="18sp"
+        android:width="135dp"
+        android:textColor="@color/lofincolor"
+        />
+
+    <TextView
+        android:id="@+id/hnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mobile"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="100dp"
+        android:textSize="18sp"
+        android:width="300dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City                     :"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/lofincolor"
+        android:width="135dp"
+        />
+
+    <TextView
+        android:id="@+id/hcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="140dp"
+        android:width="100dp"
+        android:text="city"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:width="450dp"
+        android:height="12dp"
+        android:text="--------------------------------------------------------------------------------------------------------"
+        android:textColor="@color/lofincolor"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/buttomn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="182dp"
+        android:width="450dp"
+        android:height="12dp"
+        android:text="--------------------------------------------------------------------------------------------------------"
+        android:textColor="@color/lofincolor"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

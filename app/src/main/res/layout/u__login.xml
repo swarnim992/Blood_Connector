@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="258dp"
+            android:layout_height="189dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="40dp"
+            android:layout_span="2"
+            android:src="@drawable/user" />
+
+    </TableRow>
+
+
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="232dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:gravity="center"
+            android:layout_marginTop="70dp"
+            android:hint="Enter username"
+            />
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/pass"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:hint="Enter Password" />
+
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/log_in"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="log In"
+            android:background="#f63838"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="90dp"
+
+
+
+            />
+
+    </TableRow>
+
+    <LinearLayout>
+        <Button
+            android:id="@+id/new_acc"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="110dp"
+            android:text="Create New Account"
+            android:background="#f63838"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout>
+
+        <Button
+            android:id="@+id/f_user"
+            android:layout_width="150dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="130dp"
+            android:text="Forgot User?"
+            android:textColor="#f63838"
+            android:background="@android:color/transparent"
+            android:textSize="13dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout>
+
+        <Button
+            android:id="@+id/f_pass"
+            android:layout_width="150dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="130dp"
+            android:text="Forgot Password?"
+            android:textColor="#f63838"
+            android:background="@android:color/transparent"
+            android:textSize="13dp"
+            />
+    </LinearLayout>
+
+
+
+
+</TableLayout>

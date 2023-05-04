@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="282dp"
+        android:layout_height="212dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/loginop" />
+
+    <Button
+        android:layout_width="302dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/user"
+        android:background="#f63838"
+        android:text="User login"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:layout_width="302dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:text="Hospital Login"
+        android:background="#f63838"
+        android:textColor="@android:color/white"
+        android:id="@+id/hos"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="20dp"
+        android:text="Skip login"
+        android:id="@+id/skip"
+        android:textColor="#f63838"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

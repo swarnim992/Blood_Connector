@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dis_blood">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name  :"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/lofincolor"
+        android:width="65dp"/>
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="18sp"
+        android:width="300dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood   :"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/lofincolor"
+        android:width="65dp"
+        />
+
+    <TextView
+        android:id="@+id/blood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="blood"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="18sp"
+        android:width="150dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile :"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:textSize="18sp"
+        android:width="65dp"
+        android:textColor="@color/lofincolor"
+        />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mobile"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        android:textSize="18sp"
+        android:width="300dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City      :"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/lofincolor"
+        android:width="65dp"
+        />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="city"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="140dp"
+        android:textSize="18sp"
+        android:width="100dp"
+        />
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="450dp"
+        android:layout_marginTop="180dp"
+        android:textStyle="bold"
+        android:textColor="@color/lofincolor"
+        android:text="--------------------------------------------------------------------------------------------------------"
+        android:height="12dp"/>
+
+
+</RelativeLayout>
